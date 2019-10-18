@@ -45,4 +45,8 @@ public class JanusTools {
         }
         return featureCollection;
     }
+
+    public  GraphTraversalSource getG(){
+        return g;
+    }
 }
